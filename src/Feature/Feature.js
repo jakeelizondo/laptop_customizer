@@ -15,6 +15,7 @@ function Feature(props) {
         updateFeature={props.updateFeature}
         key={itemHash}
         id={itemHash}
+        USCurrencyFormat={props.USCurrencyFormat}
         feature={props.feature}
         item={item}
         selected={props.selected}

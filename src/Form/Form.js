@@ -59,6 +59,7 @@ function Form(props) {
         <Feature
           feature={feature}
           selected={props.selected}
+          USCurrencyFormat={props.USCurrencyFormat}
           updateFeature={props.updateFeature}
           FEATURES={FEATURES}
           key={featureHash}
